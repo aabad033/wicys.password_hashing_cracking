@@ -1,0 +1,4 @@
+What is Hashing?
+
+Hashing is a method used to encrypt plaintext files, particularly sensitive information such as passwords, messages, and documents.
+(* Please note, encryption simply means the act of hiding a secret message which can be decoded, while hashing is irreversible)
