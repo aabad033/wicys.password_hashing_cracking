@@ -6,10 +6,13 @@ Feel free to use this as reference or study source!
 Hashing is a method used to permanently transform data into a fixed-length output, usually meant for sensitive information such as passwords, messages, and documents.
 (* Please note, the term encryption simply means the act of hiding a secret message which can be decoded, while hashing is irreversible)
 
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/614d239a-9cc8-4c50-bd1b-46340e5e96e4" />
+
 ## How does it work?
 Hashing works by converting data into these fixed-length strings, or hash values, by using a special algorithm called a hash function.
 
-![](https://bec49d6c.delivery.rocketcdn.me/wp-content/uploads/2024/06/what-is-hashing.png)
+ <img width="500" height="300" alt="image" src="https://bec49d6c.delivery.rocketcdn.me/wp-content/uploads/2024/06/what-is-hashing.png" />
+
 
 - The same input always produces the same hash
 - Even a tiny change in input creates a completely different hash
