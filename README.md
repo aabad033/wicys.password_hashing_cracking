@@ -16,6 +16,8 @@ Choose the setup that matches your system:
 🐧 Linux VM (Ubuntu / Kali)
 
 
+Windows Subsystem for Linux (WSL) is a component of Microsoft Windows that allows the use of a Linux environment from within Windows, foregoing the overhead of a virtual machine and being an alternative to dual booting.
+
 # Installing John the Ripper
 
 ## For WSL:
