@@ -21,3 +21,7 @@ Hashing works by converting data into these fixed-length strings, or hash values
 
 
 ## Common passward cracking techniques
+
+- Dictionary attack- A dictionary attack is a cyber threat where attackers use lists of common words and passwords to guess login credentials.
+- Brute Force- Automated scripts used to tryout all the possible passwords until the correct one works. Brute-force attacks can be very time consuming because they take a systematic approach to trying all possible permutations of characters in a sequence. The longer the password, the longer it takes. 
+- Hybrid attack- Hybrid attacks are a mix of dictionary attacks and brute force. In this case, a bad actor may get a user’s compromised password for one site. The user learns it has been compromised and changes it. The attacker will now try out variations of the old password using a brute force method that automates the additions of numbers, letters and more. 
