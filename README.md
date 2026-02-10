@@ -4,27 +4,100 @@ Welcome to our Hashing / Password Cracking workshop!
 
 See [Hashing](https://github.com/aabad033/wicys.password_hashing_cracking/blob/main/Hashing)
 
+See John The Ripper documentation: https://www.openwall.com/john/doc/ 
 
 # John the Ripper Installation Guide
 This guide walks through installing John the Ripper based on your environment.
 
 Choose the setup that matches your system:
 
-🌐 JSLinux (Alpine-based)
-🪟 WSL (Windows Subsystem for Linux)
-🍎 macOS (Homebrew)
+🪟 WSL (Windows Subsystem for Linux) /
+🍎 macOS (Homebrew) / 
 🐧 Linux VM (Ubuntu / Kali)
 
 
 # Installing John the Ripper
- Step 1: Update Package Index
 
-Update the package repository to ensure you are installing the latest available version:
+## For WSL:
 
+Step 1: Install WSL (If Not Installed Yet)
+Open PowerShell as Administrator and run:
 ```bash
-apk update
+wsl --install
 ```
+
+Restart your computer when prompted.
+
+After reboot:
+Open Ubuntu from the Start Menu
+Create a username + password
+
+Step 2: Update the System
+
+Inside the Ubuntu terminal:
 ```bash
-apk add john
+sudo apt update && sudo apt upgrade -y
+```
+This ensures all packages are current.
+
+Step 3: Install Required Base Tools
+John itself doesn’t need much, but for workshops it’s smart to install:
+```bash
+sudo apt install john build-essential git wget curl unzip -y
+```
+
+Step 4: Verify Installation
+```bash
+john --version
+```
+
+## For Homebrew
+Step 1: Check if Homebrew is Installed
+
+Open Terminal and run:
+```bash
+brew --version
+```
+
+If not, then:
+Step 2: Install Homebrew
+Run:
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+After installation, you may need to add Homebrew to your PATH. The installer will show you a command like:
+```bash
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
+Run what it tells you.
+
+Verify:
+```bash
+brew --version
+```
+
+## For Linux / Kali VM
+You only need to install john the ripper tool:
+
+
+Step 3: Install John the Ripper
+```bash
+brew update
+brew install john
+```
+Open terminal and type:
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+then
+```bash
+sudo apt install john -y
+```
+check:
+```bash
+john --version
 ```
 
