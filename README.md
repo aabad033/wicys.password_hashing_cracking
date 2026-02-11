@@ -91,7 +91,7 @@ brew install john
 ```
 Verify:
 ```bash
-john --version
+john
 ```
 
 ## For Linux / Kali VM
@@ -113,6 +113,6 @@ sudo apt install john -y
 ```
 check:
 ```bash
-john --version
+john
 ```
 
