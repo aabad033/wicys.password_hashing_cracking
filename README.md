@@ -82,6 +82,18 @@ Verify:
 brew --version
 ```
 
+Step 4: Install John the Ripper
+
+Run:
+```bash
+brew update
+brew install john
+```
+Verify:
+```bash
+john --version
+```
+
 ## For Linux / Kali VM
 You only need to install John The Ripper (Kali already has this installed):
 
