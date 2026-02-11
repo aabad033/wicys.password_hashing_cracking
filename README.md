@@ -11,8 +11,10 @@ This guide walks through installing John the Ripper based on your environment.
 
 Choose the setup that matches your system:
 
-🪟 WSL (Windows Subsystem for Linux) /
-🍎 macOS (Homebrew) / 
+🪟 WSL (Windows Subsystem for Linux)
+
+🍎 macOS (Homebrew) 
+
 🐧 Linux VM (Ubuntu / Kali)
 
 
@@ -42,8 +44,7 @@ sudo apt update && sudo apt upgrade -y
 ```
 This ensures all packages are current.
 
-Step 3: Install Required Base Tools
-John itself doesn’t need much, but for workshops it’s smart to install:
+Step 3: Install Required Base Tools:
 ```bash
 sudo apt install john build-essential git wget curl unzip -y
 ```
@@ -82,7 +83,7 @@ brew --version
 ```
 
 ## For Linux / Kali VM
-You only need to install john the ripper tool:
+You only need to install John The Ripper (Kali already has this installed):
 
 
 Step 3: Install John the Ripper
