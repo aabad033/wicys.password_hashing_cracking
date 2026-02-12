@@ -116,3 +116,8 @@ check:
 john
 ```
 
+# Fallowing along the Workshop 
+
+
+Once you have John the Ripper isntalled you can proceed to Lesson 1.
+See [Lesson 1](lesson_1.md)
